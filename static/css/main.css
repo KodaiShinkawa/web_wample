@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(255, 200, 0, 0.8);
+    background-size: cover;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-title {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    background-color: orange;
+    display: inline-block;
+    line-height: 65px;
+    padding: 0 15px;
+}
+
+.top-wrapper {
+    background-image: url(../img/banner-slide-1.jpg);
+    background-size: cover;
+    height: auto;
+}
